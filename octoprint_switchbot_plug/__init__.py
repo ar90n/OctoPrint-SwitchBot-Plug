@@ -7,6 +7,8 @@ import time
 import base64
 import hmac
 import hashlib
+import random
+import string
 
 import requests
 import flask
@@ -54,7 +56,7 @@ class SwitchBotClient:
         self._secret = secret
 
     def _create_header(self) -> dict[str, str]:
-        nonce = ""
+        nonce = "".join(random.choice(string.ascii_letters + string.digits) for _ in range(16))
         t = int(round(time.time() * 1000))
         string_to_sign = bytes(f"{self._token}{t}{nonce}", "utf-8")
         sign = base64.b64encode(
