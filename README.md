@@ -1,17 +1,25 @@
 # OctoPrint-SwitchBot-Plug
-
-**TODO:** Describe what your plugin does.
+OctoPrint plugin for turning on/off SwitchBot Plug.
 
 ## Setup
 
-Install via the bundled [Plugin Manager](https://docs.octoprint.org/en/main/bundledplugins/pluginmanager.html)
+Install via the bundled [Plugin Manager](https://docs.octoprint.org/en/master/bundledplugins/pluginmanager.html)
 or manually using this URL:
 
     https://github.com/ar90n/OctoPrint-SwitchBot-Plug/archive/main.zip
 
-**TODO:** Describe how to install your plugin, if more needs to be done than just installing it via pip or through
-the plugin manager.
+or pip install as following.
+
+```
+$ pip install octoprint_switchbot_plug
+```
 
 ## Configuration
+Fill in your token, secret and device id in plugin settings.
 
-**TODO:** Describe your plugin's configuration options (if any).
+![](https://raw.githubusercontent.com/ar90n/OctoPrint-SwitchBot-Plug/assets/settings.png)
+
+## How to use
+Click turn on/off button in sidebar.
+
+![](https://github.com/ar90n/OctoPrint-SwitchBot-Plug/blob/assets/sidebar.png?raw=true)
