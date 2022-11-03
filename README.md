@@ -8,12 +8,6 @@ or manually using this URL:
 
     https://github.com/ar90n/OctoPrint-SwitchBot-Plug/archive/main.zip
 
-or pip install as following.
-
-```
-$ pip install octoprint_switchbot_plug
-```
-
 ## Configuration
 Fill in your token, secret and device id in plugin settings.
 
