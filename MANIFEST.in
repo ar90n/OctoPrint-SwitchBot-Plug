@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_switchbot_plug/templates *
+recursive-include octoprint_switchbot_plug/translations *
+recursive-include octoprint_switchbot_plug/static *
